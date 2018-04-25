@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1076264940995",
+    "firebase_url": "https://clothesrus-b3cae.firebaseio.com",
+    "project_id": "clothesrus-b3cae",
+    "storage_bucket": "clothesrus-b3cae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076264940995:android:97a1311273460906",
+        "android_client_info": {
+          "package_name": "com.crs.clothes_r_us"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076264940995-ndf9lhf4dqs2ugudlekha1ok62v867fn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crs.clothes_r_us",
+            "certificate_hash": "9303fb3f7a2b581b05cbd61ca436880550cb1012"
+          }
+        },
+        {
+          "client_id": "1076264940995-jdlb0fp7ig4r3fveudpgg7otgtomh2du.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMhKo3mswP7TOj0oOqbiGY6cGKCM1IQrE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076264940995-jdlb0fp7ig4r3fveudpgg7otgtomh2du.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

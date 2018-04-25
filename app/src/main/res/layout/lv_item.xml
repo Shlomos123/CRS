@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightyellow"
+        android:gravity="left"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="259dp"
+                    android:layout_height="56dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Sally Sunflower Woven Cami"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Price: 20$"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/space"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgView"
+                android:layout_width="108dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/longlinecheckbuffaloshirtgrandadcollar" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightyellow"
+            tools:layout_editor_absoluteY="130dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

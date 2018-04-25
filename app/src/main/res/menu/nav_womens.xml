@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_womens"
+        android:icon="@mipmap/ic_menu_buy_foreground"
+        android:title="WOMENS" />
+
+    <item
+        android:id="@+id/navigation_mens"
+        android:icon="@mipmap/ic_menu_buy_foreground"
+        android:title="MENS" />
+    <item
+        android:id="@+id/navigation_pay"
+        android:icon="@mipmap/ic_menu_pay_foreground"
+        android:title="Pay" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@mipmap/ic_menu_main_foreground"
+        android:title="@string/title_home" />
+
+</menu>

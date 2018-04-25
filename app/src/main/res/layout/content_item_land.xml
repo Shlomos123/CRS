@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/linen"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.crs.clothes_r_us.ItemActivity"
+    tools:showIn="@layout/app_bar_item">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nItem: Longline Check Buffalo Shirt Grandad Collar\n"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="409dp"
+                    android:layout_marginTop="20dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/title_activity_item"
+                    android:cropToPadding="true"
+                    app:srcCompat="@drawable/longlinecheckbuffaloshirtgrandadcollar" />
+
+                <TextView
+                    android:id="@+id/textBadge"
+                    style="@style/Widget.Design.FloatingActionButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="159dp"
+                    android:padding="5dp"
+                    android:text="NEW"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp"
+                    android:verticalScrollbarPosition="right" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textPrice"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:text="\nPrice: 14$"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="51dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="162dp"
+                    android:gravity="center">
+
+
+                    <Button
+                        android:id="@+id/btnRemove"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@mipmap/minus" />
+
+                    <TextView
+                        android:id="@+id/textSep1"
+                        android:layout_width="3dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btnAdd"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@mipmap/plus" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/textAmount"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="Amount: 0 "
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textSeparate"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="____________"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textTotalPrice"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="Total Price: 0$"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:gravity="center">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btnPay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/lightseagreen"
+                        android:text="@string/pay"
+                        android:textAllCaps="false"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/textSep2"
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btnAddToCart"
+                        android:layout_width="114dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/lightseagreen"
+                        android:text="@string/add_to_cart"
+                        android:textAllCaps="false"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/textSep3"
+                        android:layout_width="2dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btnReset"
+                        android:layout_width="86dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/lightseagreen"
+                        android:text="@string/reset"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Clothes-R-Us</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="clothes_r_us">Clothes-R-Us</string>
+    <string name="crs_clothesrus_com">CRS@ClothesRUs.com</string>
+    <string name="welcome_to_clothes_r_us_mobile">Welcome to Clothes-R-Us Mobile!</string>
+    <string name="here_you_can_see_our_shop_newest_and_hottest_items_and_order_it_straight_to_your_home">here you can see our shop newest and hottest items and order it straight to your home.</string>
+    <string name="title_activity_pay">PayActivity</string>
+    <string name="title_activity_item">ItemActivity</string>
+
+    <string name="fname_error">Please enter your first name</string>
+    <string name="lname_error">Please enter your last name</string>
+    <string name="email_error">Please enter a valid email address user@example.com</string>
+    <string name="phone_error">Your phone must consist between 9-10 digits</string>
+    <string name="city_error">Please provide a city</string>
+    <string name="street_error">Please provide a street</string>
+    <string name="zip_error">Your zip code must consist numbers Only</string>
+    <string name="ccn_error">Your credit card number must consist 16 digits</string>
+    <string name="title_activity_womens">WOMENSActivity</string>
+    <string name="title_activity_mens">MENSActivity</string>
+    <string name="nitem_longline_check_buffalo_shirt_grandad_collar_n">Item: Longline Check Buffalo Shirt Grandad Collar</string>
+    <string name="nprice_14">Price: 14$</string>
+    <string name="amount_0">Amount: 0</string>
+    <string name="pay">PAY</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="reset">Reset</string>
+    <string name="total_price_0">Total Price: 0$</string>
+    <string name="____________">____________</string>
+    <string name="wnew_items">New Items</string>
+    <string name="whot_items">Hot Items</string>
+    <string name="mnew_items">New Items</string>
+    <string name="mhot_items">Hot Items</string>
+    <string name="you_have_selected_the_following_items_nthe_total_amount_to_pay">You have Selected the following Items:  The Total amount to pay:$</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone">Phone</string>
+    <string name="street">Street</string>
+    <string name="city">City</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="email">Email</string>
+    <string name="credit_card_number">Credit Card Number</string>
+    <string name="save_order">SAVE ORDER</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

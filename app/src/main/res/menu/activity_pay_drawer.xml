@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_menu_main_foreground"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_womens"
+            android:icon="@mipmap/ic_menu_buy_foreground"
+            android:title="WOMENS" />
+        <item
+            android:id="@+id/nav_mens"
+            android:icon="@mipmap/ic_menu_buy_foreground"
+            android:title="MENS" />
+        <item
+            android:id="@+id/nav_pay"
+            android:icon="@mipmap/ic_menu_pay_foreground"
+            android:title="Pay" />
+    </group>
+
+</menu>
